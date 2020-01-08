@@ -1,0 +1,50 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Courier+Prime|Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+</head>
+
+<body id="abody">
+    <div id="calc">
+        <div class="display" id="screen">
+            <div id="calcText">
+                43110
+            </div>
+        </div>
+        <div id="btnCase">
+            <div class="buttons" id="btn7" onclick="getId()">7</div>
+            <div class="buttons" id="btn8" onclick="getId()">8</div>
+            <div class="buttons" id="btn9" onclick="getId()">9</div>
+            <div class="symbC buttons" id="btndiv" onclick="getId()">/</div>
+            <div class="buttons" id="btn4" onclick="getId()">4</div>
+            <div class="buttons" id="btn5" onclick="getId()">5</div>
+            <div class="buttons" id="btn6" onclick="getId()">6</div>
+            <div class="symbC buttons" id="btnmult" onclick="getId()">*</div>
+            <div class="buttons" id="btn1" onclick="getId()">1</div>
+            <div class="buttons" id="btn2" onclick="getId()">2</div>
+            <div class="buttons" id="btn3" onclick="getId()">3</div>
+            <div class="symbC buttons" id="btnsub" onclick="getId()">-</div>
+            <div class="symbC buttons" id="clr" onclick="clearInput()">clr</div>
+            <div class="buttons" id="btn0" onclick="getId()">0</div>
+            <div class="symbC buttons" id="btnent" onclick="equals()">=</div>
+            <div class="symbC buttons" id="btnadd" onclick="getId()">+</div>
+            <div id="robin">&lt/&gt Robin Lifshitz</div>
+        </div>
+
+
+    </div>
+    <div id="modes" onclick="modes()">Day/Night</div>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
